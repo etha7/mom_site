@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<header>
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</header>
+<body>
+    <div class="container fadeInRight">
+        <h1> USER DATA </h1>
+    </div>
+<div class="fadeInRight">
+<div class="box">
+<?php
+
+require_once 'config.php';
+
+$db_handle = mysqli_connect($host, $user, $pass, $database);
+
+
+// Check connection
+if (!($db_handle)) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+echo "Connected Successfully<BR>";
+echo"-------------------------------------------------------<BR>";
+
+
+$db_found = mysqli_select_db($db_handle, $database);
+
+if ($db_found) {
+
+$SQL = "SELECT * FROM Users";
+$result = mysqli_query($db_handle, $SQL);
+while ( $db_field = mysqli_fetch_assoc($result) ) {
+
+print $db_field['username'] . " ";
+print $db_field['pass'] . " ";
+print $db_field['company'] . " ";
+print $db_field['email'] . "<BR> ";
+echo"-------------------------------------------------------<BR>";
+}
+
+mysqli_close($db_handle);
+
+}
+else {
+
+print "Database NOT Found ";
+mysqli_close($db_handle);
+
+}
+
+
+?>
+</div>
+</div>
+        <div class="nav fadeIn">
+        <div class="container">
+                <ul>
+                    <li> 
+                        <div class="btn">
+                            <a href="index.html">HOME</a>
+                        </div> 
+                    </li>
+                    <li> 
+                       <div class="btn">
+                            <a href="about.html">ABOUT</a>
+                       </div> 
+                    </li>
+                     <li> 
+                       <div class="btn">
+                            <a href="contact.html">CONTACT</a>
+                       </div> 
+                    </li>
+                </ul>
+             </div>
+         </div>
+
+          
+
+    </body>     
+    
+</html>
+	

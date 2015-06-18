@@ -1,0 +1,72 @@
+<body>
+<head>
+   <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+</head>
+    
+ 
+          <div class="jumbotron fadeIn">
+            <div class="container">
+             
+                 <h1>
+                    Lyssa DeSon Associates                  
+                 </h1>
+                 
+                 <p> She's my Mom | A Pretty Great Person | Love you Mom </p>
+	     
+            </div>
+          </div>
+
+
+
+
+<table align="center">
+  <tbody><tr>
+   <td valign="top">
+    
+    <div class="nav fadeIn">
+        <div class="container">
+                <ul>
+                    <li> 
+                        <div class="btn fadeIn">
+                            <a href="index.html">HOME</a>
+                        </div> 
+                    </li>
+                    <li> 
+                       <div class="btn fadeIn">
+                            <a href="about.html">ABOUT</a>
+                       </div> 
+                     </li>
+                     <li> 
+                       <div class="btn fadeIn">
+                            <a href="contact.html">CONTACT</a>
+                       </div> 
+                    </li>
+                </ul>
+             </div>
+         </div>
+    </td>
+   </tr>
+   <tr>
+    <td valign="bottom">
+       <div class="nav fadeIn">
+	    <div class="container">
+                <ul>
+                    <li style="vertical-align:middle;"> 
+                        <div class="btn fadeIn">
+                            <a href="login.php">LOGIN</a>
+                        </div> 
+                    </li>
+                     <li style="vertical-align:middle;"> 
+                       <div class="btn fadeIn">
+                            <a href="register.php">REGISTER</a>
+                       </div> 
+                    </li>
+                </ul>
+             </div>
+      </div>
+     </td>
+    </tr> 
+</tbody></table>    
+    
+</body>
+

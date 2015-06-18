@@ -1,0 +1,8 @@
+# Do not remove this line, otherwise mod_rewrite rules will stop working
+RewriteBase /
+ErrorDocument 403 /error.php
+ErrorDocument 404 /error.php
+ErrorDocument 500 /error.php 
+php_value auto_prepend_file none
+php_value auto_append_file none
+
