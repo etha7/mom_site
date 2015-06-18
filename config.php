@@ -1,6 +1,6 @@
 <?php 
-   $host = "mysql1.000webhost.com";
-   $database = "a7735960_etha7";
-   $user = "a7735960_etha7";
-   $pass = "guessmypass1";
+   $host = getenv('OPENSHIFT_MYSQL_DB_HOST');
+   $database = "lda";
+   $user = getenv('OPENSHIFT_MYSQL_DB_USERNAME');
+   $pass = getenv('OPENSHIFT_MYSQL_DB_PASSWORD');
 ?>
