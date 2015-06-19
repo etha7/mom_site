@@ -1,45 +1,10 @@
 <html>
 <?php session_start();?>
 <body>
-<table>
-  <tbody><tr>
-   <td valign="center"> 
-    <div class="nav fadeIn">
-        <div class="container">
-                <ul>
-                    <li> 
-                        <div class="btn fadeIn">
-                            <a href="index.php">HOME</a>
-                        </div> 
-                    </li>
-                    <li> 
-                       <div class="btn fadeIn">
-                            <a href="about.php">ABOUT</a>
-                       </div> 
-                     </li>
-                     <li> 
-                       <div class="btn fadeIn">
-                            <a href="contact.php">CONTACT</a>
-                       </div> 
-                    </li>
-                    <li> 
-                        <div class="btn fadeIn">
-                            <a href="login.php">LOGIN</a>
-                        </div> 
-                    </li>
-                     <li> 
-                       <div class="btn fadeIn">
-                            <a href="register.php">REGISTER</a>
-                       </div> 
-                    </li>
-                </ul>
-             </div>
-         </div>
-    </td>
-   </tr>
-</tbody></table>    
+        
     
 <?php
+        require_once('nav_bar.php');
         require_once('config.php');
         $db_handle = mysqli_connect( $host, $user, $pass, $database)
                         or die("Failed to connect");
