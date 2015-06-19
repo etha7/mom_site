@@ -50,8 +50,8 @@ tr{
 } 
 
 .nav .container {
-    width:500px;
-    height:50px;
+    width: 50%;
+    height:10%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -66,8 +66,8 @@ tr{
     color:black;
     font-family: "Verdana"
     font-size: 10%;
-    width: 90px;
-    height: 40px;
+    width: 20%;
+    height: 40%;
     vertical-align:middle;
 }
 .nav a:hover {
@@ -124,8 +124,8 @@ tr{
     text-align: left;
     color: white;
     font-size: 75%;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .jumbotron .container h1 {
