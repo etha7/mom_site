@@ -10,6 +10,7 @@ html, body {
   width: cover;
   height: cover;
   margin: 0;
+  position: absolute;
 }
 
 
@@ -83,7 +84,6 @@ tr{
     height: 50%;
     width: 100%;
     padding-top: 0px;
-    background-image: url(../Office.jpg) no-repeat center center fixed; 
     position: relative;
     margin-left:auto;
     margin-right:auto;
