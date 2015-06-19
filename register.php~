@@ -45,6 +45,7 @@
     <link rel="stylesheet" type="text/css" href="./styleCopy.css">
 </head>
 <body>
+<?php require_once('nav_bar.php'); ?>
 <form method='post' action='register.php' class="basic-grey">
 <label>
     <span> Username: </span>
@@ -77,5 +78,5 @@
                 document.getElementById('username').focus();
         }
     </script>
-</bodY>
+</body>
 </html>

@@ -4,43 +4,14 @@
   <head>
         <link rel="stylesheet" type="text/css" href="style2.css" media="screen">
   </head>
-<div class="nav fadeIn">
-	    <div class="container">
-                <ul>
-                    <li> 
-                        <div class="btn">
-                            <a href="index.php">HOME</a>
-                        </div> 
-                    </li>
-                    <li> 
-                       <div class="btn">
-                            <a href="about.php">ABOUT</a>
-                       </div> 
-        		    </li>
-                     <li> 
-                       <div class="btn">
-                            <a href="contact.php">CONTACT</a>
-                       </div> 
-                    </li>
-
-                </ul>
-
-             </div>
-         </div>
-
-
-
-
-
-
-
 
 <?php
     /* Prevent Non-admins from accessing page */
     session_start();
     if($_SESSION['is_admin'] != 1)
        header("Location:./error.php");
-    
+
+    require_once('nav_bar.php');
     require_once('config.php');
     $db_handle = mysqli_connect($host, $user, $pass, $database)
             or die("Failed to connect");
