@@ -42,8 +42,6 @@
        header("Location:./error.php");
     
     require_once('config.php');
-    $database = "a7735960_text"; //database to hold all text used in website. 
-    $user = "a7735960_text";
     $db_handle = mysqli_connect($host, $user, $pass, $database)
             or die("Failed to connect");
     mysqli_select_db($db_handle, $database);
@@ -76,7 +74,7 @@
                  echo sprintf("<p>Now editing: %s</p>", $_POST['page']);
          }
          else
-                 echo "Choose a page to edit in the dropdown menu below! :) ";
+                 echo "<p>Choose a page to edit in the dropdown menu below! :)</p> ";
         ?>
         
          
