@@ -1,0 +1,38 @@
+<table align="bottom">
+  <tbody><tr>
+   <td valign="center">
+    
+    <div class="nav fadeIn">
+        <div class="container">
+                <ul>
+                    <li> 
+                        <div class="btn fadeIn">
+                            <a href="index.php">HOME</a>
+                        </div> 
+                    </li>
+                    <li> 
+                       <div class="btn fadeIn">
+                            <a href="about.php">ABOUT</a>
+                       </div> 
+                     </li>
+                     <li> 
+                       <div class="btn fadeIn">
+                            <a href="contact.php">CONTACT</a>
+                       </div> 
+                    </li>
+                    <li> 
+                        <div class="btn fadeIn">
+                            <a href="login.php">LOGIN</a>
+                        </div> 
+                    </li>
+                     <li> 
+                       <div class="btn fadeIn">
+                            <a href="register.php">REGISTER</a>
+                       </div> 
+                    </li>
+                </ul>
+             </div>
+         </div>
+    </td>
+   </tr>
+</tbody></table>
