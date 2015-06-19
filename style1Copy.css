@@ -9,8 +9,7 @@ html, body {
   color:white;
   width: cover;
   height: cover;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0;
 }
 
 
@@ -19,7 +18,6 @@ table{
   width: 40%;
   position: absolute;
   transform: translate(-50%,-10% );
-  left: 50%;
   resize: both; 
   overflow: auto;
 
