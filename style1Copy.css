@@ -11,8 +11,8 @@ html, body {
 
 
 table{
-  height: 300px;
-  width: 300px;
+  height: 40%;
+  width: 40%;
   position: absolute;
   transform: translate(-50%,-10% );
   left: 50%;
@@ -38,14 +38,15 @@ tr{
    position: absolute; 
    display:table;    
    padding: 0;
-   width: 500px;
-   height: 40px;
+   width: 50%;
+   height: 10%;
   }
 
 .nav li {
    display: inline-block; 
    padding: 1px;
-      
+   margin-left: auto;
+   margin-right: auto; 
 
 } 
 
@@ -130,7 +131,7 @@ tr{
 
 .jumbotron .container h1 {
     height: 50%; 
-    width: 495px;
+    width: 100%;
     margin: 0 auto 0 auto;
     text-align: center;
     color: #ffffff;
@@ -151,7 +152,7 @@ tr{
     font-family: "Lucida Sans Unicode";
     font-size:80%;
     font-weight: 500;
-    width: 495px;
+    width: 100%;
     /*opacity: .9;
     background-color: rgba(153,153,153,.3);
     */
@@ -164,8 +165,8 @@ tr{
   font-family: "Geneva";
   font-size: 80%;
   text-align: center;
-  width: 90px;
-  height: 40px;
+  width: 15%;
+  height: 20%;
   display: inline-block;
   position:relative;
 }
