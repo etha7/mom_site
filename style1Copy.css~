@@ -78,7 +78,8 @@ tr{
 
 
 .jumbotron {
-    
+    height: 100%;
+    width: 100%;
     padding-top: 0px;
     background-image: url(../Office.jpg) no-repeat center center fixed; 
     position: relative;
@@ -100,9 +101,7 @@ tr{
   left: 50%;
   resize: none; 
   overflow: auto;
-  opacity: .9;
-  /*background-color: rgba(153,153,153,.3);
-  */
+  opacity: .9; 
   background-color: #222;
   margin-left: auto;
   margin-right: auto;
@@ -114,7 +113,7 @@ tr{
     margin-bottom: 5%;
     margin-left: auto;
     margin-right: auto;
-    height: 1%;
+    height: 100%;
     overflow: auto; 
     display: table;
 
