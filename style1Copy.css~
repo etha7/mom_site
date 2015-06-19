@@ -46,7 +46,8 @@ tr, td{
 
 .nav li {
    display: inline-block; 
-   width: 50%;
+   width: 100%;
+   height: 10%
    padding: 1px;
    margin-left: auto;
    margin-right: auto; 
