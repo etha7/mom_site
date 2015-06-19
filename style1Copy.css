@@ -9,6 +9,8 @@ html, body {
   color:white;
   width: cover;
   height: cover;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
