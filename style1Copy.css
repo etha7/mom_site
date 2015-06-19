@@ -14,7 +14,7 @@ html, body {
 
 
 table{
-  height: 40%;
+  height: 20%;
   width: 50%;
   margin: 0 auto;
   position: relative;
@@ -25,6 +25,7 @@ table{
 
 tr{
     height:auto;
+    width: 100%;
 }
 
 
@@ -45,7 +46,7 @@ tr{
 
 .nav li {
    display: inline-block; 
-   width: 100%
+   width: 50%;
    padding: 1px;
    margin-left: auto;
    margin-right: auto; 
@@ -67,8 +68,7 @@ tr{
     display: table-cell;
     text-decoration:none;
     color:black;
-    font-family: "Verdana"
-    font-size: 10%;
+    font-family: "Verdana";
     width: 20%;
     height: 40%;
     vertical-align:middle;
@@ -106,7 +106,6 @@ tr{
 }
 
 .jumbotron .container {
-    margin-top: 10%;
     margin-bottom: 5%;
     margin-left: auto;
     margin-right: auto;
