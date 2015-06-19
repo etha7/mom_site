@@ -61,7 +61,6 @@ tr, td{
     margin-right: auto;
     text-align: center;
     display: inline-block;
-    padding: 20px;
     background-color: grey; 
 }
 
