@@ -9,9 +9,7 @@
 
 ?>
 <body>
-  <head>
-        <link rel="stylesheet" type="text/css" href="styleContact.css" media="screen">
-  </head>
+    <?php require_once('header.php');?>
 <table>
   <tbody><tr>
    <td valign="center"> 

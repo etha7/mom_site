@@ -7,11 +7,8 @@
                         or die("Failed to connect");
         mysqli_select_db($db_handle, $database);
 ?>
-<head>
-   <link rel="stylesheet" type="text/css" href="style1Copy.css" media="screen">
-   <meta name=viewport content="width=device-width, initial-scale=1">
-</head>
-    
+
+    <?php require_once('header.php');?>
  
           <div class="jumbotron fadeIn">
             <div class = "box" >

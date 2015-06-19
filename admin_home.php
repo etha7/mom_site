@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html>
 <body>
-  <head>
-        <link rel="stylesheet" type="text/css" href="style2.css" media="screen">
-  </head>
-
 <?php
+    require_once('header.php');
     /* Prevent Non-admins from accessing page */
     session_start();
     if($_SESSION['is_admin'] != 1)

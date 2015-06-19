@@ -1,4 +1,6 @@
+
 <?php
+/* Register Script */
     require_once('config.php');
 	if($_POST) {
 		$password = $_POST['password'];
@@ -21,7 +23,7 @@
             }
 
 			if($count >= 1) { ?>
-<span style='color:red'>Error: that username is taken.</span>
+            <span style='color:red'>Error: that username is taken.</span>
 <?php		} else {
 				$query = sprintf("INSERT INTO Users (username, password, company, email) VALUES ('%s','%s', '%s', '%s');",
 					mysqli_real_escape_string($db_handle, $_POST['username']),
@@ -40,10 +42,10 @@
 		}
 	}
 ?>
+
+
 <html>
-<head>
-    <link rel="stylesheet" type="text/css" href="./styleCopy.css">
-</head>
+<?php require_once('header.php');?>
 <body>
 <?php require_once('nav_bar.php'); ?>
 <form method='post' action='register.php' class="basic-grey">

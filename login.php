@@ -70,9 +70,7 @@
 
 <html>
   <body>
-     <header>
-       <link rel="stylesheet" type="text/css" href="./styleCopy.css">
-    </header>
+  <?php require_once('header.php'); ?>
       <form action ='login.php' method='post' class="basic-grey">
            <label>
                <span> Username: </span>

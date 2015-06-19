@@ -4,9 +4,7 @@
 
 <html>
    <body>
-     <head>
-        <link rel="stylesheet" type="text" href="./style1.css" media="screen">
-     </head>
+   <?php require_once('header.php');?>
     <div class="jumbotron fadeIn">
             <div class = "box" >
                 <div class="container">

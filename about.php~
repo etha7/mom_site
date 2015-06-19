@@ -9,10 +9,9 @@
         $db_handle = mysqli_connect( $host, $user, $pass, $database)
                         or die("Failed to connect");
         mysqli_select_db($db_handle, $database);
+        require_once('header.php');
 ?>
-<head>
-   <link rel="stylesheet" type="text/css" href="style1.css" media="screen">
-</head>
+        
     
  
           <div class="jumbotron fadeIn">
