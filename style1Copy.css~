@@ -24,16 +24,10 @@ table{
 
 }
 
-tr{
+tr, td{
     height:auto;
     width: 100%;
     background-color: blue; 
-}
-
-
-
-.box {
-    background-color: white;
 }
 
 .nav {
@@ -118,7 +112,7 @@ tr{
     margin-left: auto;
     margin-right: auto;
     height: 50%;
-    width: 80%;
+    width: 100%;
     overflow: auto; 
     display: table;
 
