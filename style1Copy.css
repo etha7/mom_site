@@ -14,6 +14,7 @@ html, body {
 
 
 table{
+  display: inline-block;
   height: 10%;
   width: 50%;
   margin: 0 auto;
@@ -66,7 +67,7 @@ tr, td{
 
 .nav a {
 
-    display: table-cell;
+    display: inline-block;
     text-decoration:none;
     color:black;
     font-family: "Verdana";
