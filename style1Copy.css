@@ -98,7 +98,7 @@ tr{
   width: 50%;
   /*transform: translate(-50%, 70%);*/
   margin-top: 10%;
-  position: absolute;
+  position: relative;
   resize: none; 
   overflow: auto;
   opacity: .9; 

@@ -99,7 +99,6 @@ tr{
   /*transform: translate(-50%, 70%);*/
   margin-top: 10%;
   position: absolute;
-  left: 50%;
   resize: none; 
   overflow: auto;
   opacity: .9; 
