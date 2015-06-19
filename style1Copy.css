@@ -15,7 +15,7 @@ html, body {
 
 table{
   height: 40%;
-  width: 40%;
+  width: 50%;
   margin: 0 auto;
   position: relative;
   resize: both; 
@@ -112,7 +112,7 @@ tr{
     margin-left: auto;
     margin-right: auto;
     height: 50%;
-    width: 75%;
+    width: 80%;
     overflow: auto; 
     display: table;
 
@@ -163,8 +163,8 @@ tr{
   font-family: "Geneva";
   font-size: 80%;
   text-align: center;
-  width: 100%;
-  height: 20%;
+  width: 50%;
+  height: 30%;
   display: inline-block;
   position:relative;
 }
