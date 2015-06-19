@@ -24,7 +24,7 @@ table{
 
 }
 
-tr{
+tr, td{
     height:auto;
     width: 100%;
     background-color: blue; 
