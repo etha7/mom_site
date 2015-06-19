@@ -9,44 +9,9 @@
 
 ?>
 <body>
-    <?php require_once('header.php');?>
-<table>
-  <tbody><tr>
-   <td valign="center"> 
-    <div class="nav fadeIn">
-        <div class="container">
-                <ul>
-                    <li> 
-                        <div class="btn fadeIn">
-                            <a href="index.php">HOME</a>
-                        </div> 
-                    </li>
-                    <li> 
-                       <div class="btn fadeIn">
-                            <a href="about.php">ABOUT</a>
-                       </div> 
-                     </li>
-                     <li> 
-                       <div class="btn fadeIn">
-                            <a href="contact.php">CONTACT</a>
-                       </div> 
-                    </li>
-                    <li> 
-                        <div class="btn fadeIn">
-                            <a href="login.php">LOGIN</a>
-                        </div> 
-                    </li>
-                     <li> 
-                       <div class="btn fadeIn">
-                            <a href="register.php">REGISTER</a>
-                       </div> 
-                    </li>
-                </ul>
-             </div>
-         </div>
-    </td>
-   </tr>
-</tbody></table>    
+    <?php require_once('header.php');
+          require_once('nav_bar.php');?>
+   
 
         <div class = "contactPage fadeIn" >
                 <div class = "contactBox fadeIn" >

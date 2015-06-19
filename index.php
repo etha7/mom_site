@@ -8,7 +8,8 @@
         mysqli_select_db($db_handle, $database);
 ?>
 
-    <?php require_once('header.php');?>
+    <?php require_once('header.php');
+          require_once('nav_bar.php') ?>
  
           <div class="jumbotron fadeIn">
             <div class = "box" >
@@ -41,7 +42,6 @@
             </div>
           </div>
 
-	<?php require_once('nav_bar.php'); ?>
 
     <div class="footer">
            <?php
