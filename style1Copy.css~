@@ -29,7 +29,7 @@ body {
 
 table{
   height: 10%;
-  width: 80%;
+  width: 90%;
   margin: auto;
   position: relative;
   resize: both; 
@@ -110,9 +110,8 @@ span {
 }
 
 .jumbotron .box {
-  height: 20%;
+  height: 30%;
   width: 80%;
-  /*transform: translate(-50%, 70%);*/
   position: relative;
   resize: none; 
   overflow: auto;
@@ -152,9 +151,7 @@ span {
     text-shadow: 1px 1px rgba(0,0,0, 1);
     font-family: 'Geneva', sans serif;
     font-size: 7vw;
-    /*opacity: .9;
-    background-color: rgba(153,153,153,.3);
-    */ 
+    
 }
 
 
@@ -169,9 +166,7 @@ span {
     font-size:3vw;
     font-weight: 500;
     width: 100%;
-    /*opacity: .9;
-    background-color: rgba(153,153,153,.3);
-    */
+    
 
 }
 
@@ -330,7 +325,7 @@ body .loginbox {
 }
 .basic-grey {
     display: block;
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
     box-shadow: 4px 4px 8px black;
     background-color: black;
@@ -350,7 +345,7 @@ body .loginbox {
 }
 .basic-grey h1>span {
     display: block;
-    font-size: 11px;
+    font-size: 1vw;
 }
 .basic-grey label {
     display: block;
@@ -363,6 +358,7 @@ body .loginbox {
     padding-right: 1%;
     margin-top: 1%;
     color: white;
+    font-size: 1.5vw;
 }
 .basic-grey input[type="text"], .basic-grey input[type="password"], .basic-grey textarea, .basic-grey select {
     border: 1px solid #DADADA;
