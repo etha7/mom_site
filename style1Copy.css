@@ -16,18 +16,12 @@ body {
   display: table-cell;
   vertical-align: middle;
   overflow: hidden;
-  background: url(../Office2.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100%;
   color:white;
   width: 100%;
   height: 50%;
   margin: 0;
 }
-.footer{
+.footer p{
     margin:auto;
 }
 
