@@ -14,6 +14,7 @@ html {
 }
 body { 
   display: table-cell;
+  vertical-align: middle;
   overflow: hidden;
   background: url(../Office2.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
