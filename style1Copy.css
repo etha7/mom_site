@@ -268,9 +268,7 @@ ul .admin_home {
   list-style-type: none;
   text-shadow: none;
 }
-.contactPage ul li p {
-  display: inline-block;
-}
+
 .submitContact input:hover {
   font-size: 1vw;
   color: black;
@@ -301,6 +299,7 @@ ul .admin_home {
 }
 
 fieldset#contact {
+  width: 10vw;
   margin-left: auto;
   margin-right: auto;
   left 50%;
