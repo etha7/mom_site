@@ -16,11 +16,6 @@ body {
   display: table-cell;
   vertical-align: middle;
   overflow: hidden;
-  background: url(../Office2.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   color:white;
   width: 100%;
   height: 50%;
@@ -417,7 +412,6 @@ body .loginbox {
 }
 
 
-
 @-webkit-keyframes fade-in {
     0% {
     opacity: 0;
@@ -433,8 +427,6 @@ body .loginbox {
 .fadeIn {
     -webkit-animation:.25s fade-in;
 }
-
-
 
 @-webkit-keyframes fade-in-right {
     0% {
