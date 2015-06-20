@@ -49,8 +49,8 @@ tr, td{
    display: inline-block; 
    width: 15%;
    height: 100%%;
-   padding: 1px;
-
+   padding: 1%;
+   font-size: 20%;
 } 
 
 .nav .container {
@@ -157,7 +157,6 @@ tr, td{
   background: #c2c2c2;
   border-radius: 2px;
   font-family: "Geneva";
-  font-size: 80%;
   text-align: center;
   height: 100%;
   width: 100%;
