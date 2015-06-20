@@ -258,13 +258,17 @@ ul .admin_home {
 
 /* Form Style for Contact Page */
 
-.contactBox, .contactForm {
-  overflow: auto;
+.contactPage {
+  overflow: hidden;
+  width: 50%;
 }
+.contactForm .contactBox{
+    overflow: auto;
+    width: 100%; 
+ }
 .contactPage ul {
   list-style-type: none;
   text-shadow: none;
-  overflow: auto;
 }
 .submitContact input:hover {
   font-size: 1vw;
@@ -300,8 +304,7 @@ fieldset#contact {
   margin-right: auto;
   left 50%;
   top: 50%;
-  width: 500px;
-  height: 400px;
+  width: 100%;
   background-color: #c0c0c0;
   opacity: 0.9;
   font-family: "Geneva";
@@ -312,7 +315,6 @@ fieldset#contact {
   box-shadow: 4px 4px 8px black;
   border-radius: 2px; 
   overflow: auto;
-
 
 }
 
