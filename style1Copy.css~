@@ -20,7 +20,6 @@ table{
   position: relative;
   resize: both; 
   overflow: auto;
-  background-color: red;
 
 }
 
@@ -63,7 +62,7 @@ tr, td{
 .nav a {
     margin-left: auto; 
     margin-right: auto;
-    display: inline-block;
+    display: table;
     text-decoration:none;
     color:black;
     font-family: "Verdana";
@@ -71,14 +70,13 @@ tr, td{
     height: 100%;
     top: 50%; /* Vertically Center text...*/
     text-align: center; 
-    background-color: blue;
 }
 .nav a:hover {
     color:white;
 }
 
 span {
-    display: inline-block;
+    display: table-cell;
     vertical-align: middle;
     line-height: normal;
     }
