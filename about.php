@@ -31,7 +31,7 @@
                      $row = mysqli_fetch_array( $result);
                      $header = $row['header'];
                      echo sprintf("<p>%s</p>", $header);
-                  /* Main */
+                     /* Main */
                      $query = "SELECT main FROM pages WHERE page='about'";
                      $result = mysqli_query( $db_handle, $query);
                      $row = mysqli_fetch_array( $result);
