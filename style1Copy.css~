@@ -15,7 +15,7 @@ html, body {
 
 table{
   height: 10%;
-  width: 50%;
+  width: 80%;
   margin: auto;
   position: relative;
   resize: both; 
@@ -145,6 +145,7 @@ span {
 
 .jumbotron p {
 
+    margin-top:1%;
     margin-left:auto;
     margin-right:auto;
     text-align: center;
