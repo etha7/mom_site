@@ -36,10 +36,10 @@
                                  echo sprintf("<p>%s</p>", $header);
 
                                 ?>
-                                        <li> First Name *:<p>     </p><input type="text" name="first_name" id="firstname" maxlength="50" size="30"> </li>
-                                        <li> Last Name *:<p>      </p><input  type="text" name="last_name" maxlength="50" size="30"></li>
-                                        <li> E-Mail Address *:<p> </p><input  type="text" name="email" maxlength="80" size="30"></li>
-                                        <li> Telephone Number:<p> </p><input  type="text" name="telephone" maxlength="30" size="30"></li>
+                                        <li> First Name *:<input type="text" name="first_name" id="firstname" maxlength="50" size="30"> </li>
+                                        <li> Last Name *:<input  type="text" name="last_name" maxlength="50" size="30"></li>
+                                        <li> E-Mail Address *:<input  type="text" name="email" maxlength="80" size="30"></li>
+                                        <li> Telephone Number:<input  type="text" name="telephone" maxlength="30" size="30"></li>
                                         <li> Comments *:<br><textarea  name="comments" maxlength="1000" cols="50" rows="10"></textarea></li>
                                 <p class = "submit">
                                         <input type="submit" value="Submit">    </p>
