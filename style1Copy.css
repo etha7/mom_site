@@ -10,10 +10,13 @@ html, body {
   width: 100%;
   height: 100%;
   margin: 0;
+  display: table;
 }
 
 
 table{
+  display:table-cell;
+  vertical-align: middle;
   height: 10%;
   width: 80%;
   margin: auto;
@@ -47,7 +50,7 @@ tr, td{
    width: 15%;
    height: 100%%;
    font-size: 50%;
-   margin: 0% 1%;
+   margin: 0% 0.5%;
 } 
 
 .nav .container {
@@ -91,7 +94,8 @@ span {
     position: relative;
     margin-left:auto;
     margin-right:auto;
-    display: table;   
+    display: table-cell;
+    vertical-align: middle;   
 }
 
 .jumbotron .box {
