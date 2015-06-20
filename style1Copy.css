@@ -14,7 +14,7 @@ html, body {
 
 
 table{
-  height: 15%;
+  height: 10%;
   width: 50%;
   margin: 0 auto;
   position: relative;
@@ -47,7 +47,7 @@ tr, td{
    display: inline-block; 
    width: 15%;
    height: 100%%;
-   font-size: 20%;
+   font-size: 50%;
    color: blue; 
 } 
 

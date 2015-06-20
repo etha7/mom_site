@@ -47,7 +47,7 @@ tr, td{
    display: inline-block; 
    width: 15%;
    height: 100%%;
-   font-size: 20%;
+   font-size: 50%;
    color: blue; 
 } 
 
@@ -58,7 +58,6 @@ tr, td{
     margin-right: auto;
     text-align: center;
     display: table;
-    background-color: grey; 
 }
 
 .nav a {
