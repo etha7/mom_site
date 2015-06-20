@@ -14,7 +14,7 @@ html, body {
 
 
 table{
-  height: 50%;
+  height: 15%;
   width: 50%;
   margin: 0 auto;
   position: relative;
@@ -25,7 +25,6 @@ table{
 }
 
 tr, td{
-    display: inline-block;
     height:100%;
     width: 100%;
     background-color: blue; 
