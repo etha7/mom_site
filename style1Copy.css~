@@ -192,7 +192,7 @@ span {
 }
 /* Form Style for Admin Home Page */
 .submitAdmin input:hover {
-  font-size: 12px;
+  font-size: 1vw;
   color: black;
   text-shadow: none;
   background: #c0c0c0;
@@ -202,20 +202,20 @@ span {
   display: inline-block;
   text-align:center;
   border-radius:2px;
-  width: 90px;
-  height: 40px;
+  width: 25%;
+  height: 10px;
   text-align:center;
   cursor: pointer;
 } 
 
 .submitAdmin input {
   font-size:12px;
-  width: 90px;
-  height: 40px;
-  border: 1px solid black;
+  width: 25%;
+  height: 10%;
+  border: 1% solid black;
   display: inline-block;
   text-align:center;
-  border-radius:2px;
+  border-radius:2%;
   color: white;
   background: black;
 }
@@ -235,7 +235,6 @@ fieldset#admin_home {
   border: none;
   box-shadow: 4px 4px 8px black;
   border-radius: 2px; 
-
 
 }
 
@@ -259,9 +258,13 @@ ul .admin_home {
 
 /* Form Style for Contact Page */
 
+.contactBox, .contactForm {
+  overflow: auto;
+}
 .contactPage ul {
   list-style-type: none;
   text-shadow: none;
+  overflow: auto;
 }
 .submitContact input:hover {
   font-size: 12px;
@@ -308,6 +311,7 @@ fieldset#contact {
   border: none;
   box-shadow: 4px 4px 8px black;
   border-radius: 2px; 
+  overflow: auto;
 
 
 }
