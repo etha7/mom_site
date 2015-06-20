@@ -38,11 +38,12 @@ tr, td{
 .nav ul {
    margin: 0 auto;
    position: relative; 
-   display: inline-block;    
    padding: 0;
    width: 100%;
    height: 5%;
    background-color: yellow;
+   font-size: 0; /*White space in html affects element spacing, so I'm setting 
+                   font-size to zero so white space of the parent doesn't show up */
   }
 
 .nav li {
@@ -60,7 +61,7 @@ tr, td{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    display: inline-block;
+    display: table;
     background-color: grey; 
 }
 
@@ -164,7 +165,6 @@ tr, td{
   text-align: center;
   height: 30%;
   width: 20%;
-  display: inline-block;
   position:relative;
 }
 

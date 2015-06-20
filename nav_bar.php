@@ -1,6 +1,6 @@
 <table align="bottom">
   <tbody><tr>
-   <td valign="center">
+   <td>
     
     <div class="nav fadeIn">
         <div class="container">
