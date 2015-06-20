@@ -63,7 +63,7 @@ tr, td{
 
 .nav a {
 
-    
+    margin: auto; 
     display: table-cell;
     text-decoration:none;
     color:black;

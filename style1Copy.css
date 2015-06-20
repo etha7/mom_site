@@ -63,8 +63,8 @@ tr, td{
 
 .nav a {
 
-    
-    display: table-cell;
+    margin: auto; 
+    display: inline-block;
     text-decoration:none;
     color:black;
     font-family: "Verdana";
