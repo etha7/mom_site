@@ -63,7 +63,7 @@ tr, td{
 .nav a {
     margin-left: auto; 
     margin-right: auto;
-    display: inline-block;
+    display: table;
     text-decoration:none;
     color:black;
     font-family: "Verdana";
@@ -78,7 +78,7 @@ tr, td{
 }
 
 span {
-    display: inline-block;
+    display: table-cell;
     vertical-align: middle;
     line-height: normal;
     }
