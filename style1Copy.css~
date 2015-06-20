@@ -79,9 +79,12 @@ span {
     display: table-cell;
     vertical-align: middle;
     line-height: normal;
-    font-size: 2vw;
+    font-size: 1vw;
     }
 
+h1 {
+       font-size: 10vw;
+   }
 
 .jumbotron {
     height: 50%;
