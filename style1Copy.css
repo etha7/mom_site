@@ -26,7 +26,7 @@ table{
 
 tr, td{
     display: inline-block;
-    height:auto;
+    height:100%;
     width: 100%;
     background-color: blue; 
 }
