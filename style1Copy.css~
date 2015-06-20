@@ -94,7 +94,8 @@ span {
     position: relative;
     margin-left:auto;
     margin-right:auto;
-    display: table;   
+    display: table-cell;
+    vertical-align: middle;   
 }
 
 .jumbotron .box {
