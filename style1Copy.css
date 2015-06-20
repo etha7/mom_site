@@ -330,7 +330,7 @@ body .loginbox {
 }
 .basic-grey {
     display: block;
-    width: 500px;
+    width: 50%;
     margin: 0 auto;
     box-shadow: 4px 4px 8px black;
     background-color: black;
@@ -350,7 +350,7 @@ body .loginbox {
 }
 .basic-grey h1>span {
     display: block;
-    font-size: 11px;
+    font-size: 1vw;
 }
 .basic-grey label {
     display: block;

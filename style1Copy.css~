@@ -330,7 +330,7 @@ body .loginbox {
 }
 .basic-grey {
     display: block;
-    width: 500px;
+    width: 50%;
     margin: 0 auto;
     box-shadow: 4px 4px 8px black;
     background-color: black;
@@ -391,11 +391,10 @@ body .loginbox {
     text-indent: 0.01px;
     text-overflow: '';
     width: 70%;
-    height: 35px;
-    line-height: 25px;
+    height: 20%;
 }
 .basic-grey textarea{
-    height:100px;
+    height:50%;
 }
 .basic-grey .button {
 
