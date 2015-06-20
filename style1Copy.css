@@ -260,11 +260,9 @@ ul .admin_home {
 
 .contactPage {
   overflow: hidden;
-  width: 50%;
 }
 .contactForm, .contactBox{
-    overflow: auto;
-    width: 100%; 
+    overflow: hidden;
  }
 .contactPage ul {
   list-style-type: none;
@@ -304,7 +302,6 @@ fieldset#contact {
   margin-right: auto;
   left 50%;
   top: 50%;
-  width: 100%;
   background-color: #c0c0c0;
   opacity: 0.9;
   font-family: "Geneva";
