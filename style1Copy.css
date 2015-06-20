@@ -49,7 +49,6 @@ tr, td{
    height: 100%%;
    font-size: 50%;
    margin: 0% 1%;
-   background-color: blue;
 } 
 
 .nav .container {
@@ -62,7 +61,7 @@ tr, td{
 }
 
 .nav a {
-
+    vertical-align: middle;
     margin: auto; 
     display: inline-block;
     text-decoration:none;
@@ -70,7 +69,6 @@ tr, td{
     font-family: "Verdana";
     width: 100%;
     height: 100%;
-    background-color: yellow;
 }
 .nav a:hover {
     color:white;
