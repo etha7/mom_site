@@ -61,7 +61,6 @@ tr, td{
 }
 
 .nav a {
-
     margin: auto; 
     display: inline-block;
     text-decoration:none;
