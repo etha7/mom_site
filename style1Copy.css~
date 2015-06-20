@@ -22,7 +22,8 @@ body {
   margin: 0;
 }
 .footer p{
-    margin:auto;
+    margin: 0 auto;
+    text-align: center;
 }
 
 
@@ -280,10 +281,10 @@ ul .admin_home {
 } 
 
 .submitContact input {
-  font-size:12px;
-  width: 90px;
-  height: 40px;
-  border: 1px solid black;
+  font-size:1vw;
+  width: 10%;
+  height: 5%;
+  border: 1% solid black;
   display: inline-block;
   text-align:center;
   border-radius:2px;
