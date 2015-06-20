@@ -136,7 +136,7 @@ span {
     color: #ffffff;
     text-shadow: 1px 1px rgba(0,0,0, 1);
     font-family: 'Geneva', sans serif;
-    font-size: 8vw;
+    font-size: 7vw;
     /*opacity: .9;
     background-color: rgba(153,153,153,.3);
     */ 
