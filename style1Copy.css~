@@ -172,7 +172,6 @@ span {
   background: #c2c2c2;
   border-radius: 2px;
   font-family: "Geneva";
-  font-size: 10px;
   text-align: center;
   height: 100%;
   width: 100%;
