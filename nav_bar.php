@@ -4,8 +4,8 @@
     
     <div class="nav fadeIn">
         <div class="container">
-                <ul>
-                    <li class="btn fadeIn"><a href="index.php"><span>HOME</span></a></li><!--                        
+                <ul><!--
+                 --><li class="btn fadeIn"><a href="index.php"><span>HOME</span></a></li><!--                        
                  --><li class="btn fadeIn"><a href="about.php"><span>ABOUT</span></a></li><!--
                  --><li class="btn fadeIn"><a href="contact.php"><span>CONTACT</span></a></li><!-- 			
                  --><li class="btn fadeIn"><a href="login.php"><span>LOGIN</span></a></li><!-- 
@@ -23,7 +23,7 @@ fontsize = function (){
     for(i = 0; i < container.length; i++)
     {
        var height = container[i].clientHeight;
-       var fontS = height +"px";
+       var fontS = height*0.5 +"px";
        container[i].style.fontSize = fontS;
     }
     
