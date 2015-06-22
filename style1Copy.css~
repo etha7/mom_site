@@ -22,9 +22,9 @@ body {
   margin: 0;
 }
 .footer p{
+    top: 0;
     margin: 0 auto;
     text-align: center;
-    background-color: blue;
 }
 
 
@@ -352,7 +352,7 @@ body .loginbox {
 }
 .basic-grey label {
     display: block;
-    margin: 0px;
+    margin: 5px 0px;
 }
 .basic-grey label>span {
     float: left;
