@@ -25,7 +25,7 @@
     var i;
     for(i = 0; i < container.length; i++)
     {
-            var fontS = height*width*0.25 +"px";
+            var fontS = height*width*0.01 +"px";
             container[i].style.fontSize = fontS;
     }
 };
