@@ -23,6 +23,7 @@
     var height = container[i].clientHeight; 
     var width = container[i].clientWidth;
     var i;
+    alert(width);
     for(i = 0; i < container.length; i++)
     {
             var fontS = height*width*0.5 +"px";
