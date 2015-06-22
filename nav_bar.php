@@ -26,7 +26,7 @@ fontsize = function (){
             var height = container[i].clientHeight;
             var width = container[i].clientWidth;
             alert(width);
-            var fontS = height*0.5 +"px";
+            var fontS = height*width*0.5 +"px";
             container[i].style.fontSize = fontS;
 
     }
