@@ -18,7 +18,7 @@
 </tbody></table>
 <script>
 fontsize = function (){
-    var container = document.getElementsByClassName('btn');
+    var container = document.getElementsByClassName('btn fadeIn');
     var i;
     
     for(i = 0; i < container.length; i++)
