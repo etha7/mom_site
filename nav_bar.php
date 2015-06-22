@@ -18,15 +18,16 @@
 </tbody></table>
 <script>
 fontsize = function (){
-    var container = document.getElementsByClassName('btn fadeIn');
+    var container = document.getElementsByClassName('btn');
     var i;
-    alert("TEST");
     for(i = 0; i < container.length; i++)
     {
        var height = container[i].offsetHeight;
        var fontS = height*0.1 +"px";
        container[i].style.fontSize = fontS;
     }
+    alert(height);
+    alert(fontS);
 };
 window.addEventListener('resize',  fontsize);
 window.addEventListener('load',  fontsize);
