@@ -29,6 +29,7 @@ fontsize = function (){
             container[i].style.fontSize = fontS;
 
     }
+    alert(i);
     alert(width);
 };
 window.addEventListener('resize',  fontsize);

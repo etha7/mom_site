@@ -25,10 +25,11 @@ fontsize = function (){
     {
             var height = container[i].clientHeight;
             var width = container[i].clientWidth;
-       var fontS = height*width*0.5 +"px";
-       container[i].style.fontSize = fontS;
+            var fontS = height*width*0.5 +"px";
+            container[i].style.fontSize = fontS;
+
     }
-    
+    alert(width);
 };
 window.addEventListener('resize',  fontsize);
 window.addEventListener('load',  fontsize);
