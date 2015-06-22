@@ -22,10 +22,11 @@
     var container = document.getElementsByClassName('btn');
     var height = container[0].clientHeight; 
     var width = container[0].clientWidth;
+    var fontFudgeFactor = 0.007; /*Derived Empirically */
     var i;
     for(i = 0; i < container.length; i++)
     {
-            var fontS = height*width*0.01 +"px";
+            var fontS = height*width*fontFudgeFactor +"px";
             container[i].style.fontSize = fontS;
     }
 };
