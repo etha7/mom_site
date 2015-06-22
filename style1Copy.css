@@ -24,6 +24,7 @@ body {
 .footer p{
     margin: 0 auto;
     text-align: center;
+    background-color: blue;
 }
 
 
@@ -60,7 +61,6 @@ tr, td{
    display: inline-block; 
    width: 15%;
    height: 100%%;
-   font-size: 50%;
    margin: 0% 0.5%;
 } 
 
@@ -93,7 +93,7 @@ span {
     display: table-cell;
     vertical-align: middle;
     line-height: normal;
-    font-size: 1.25vw;
+    font-size: 1.5vw;
     }
 
 
@@ -257,7 +257,11 @@ ul .admin_home {
 }
 .contactForm, .contactBox{
     overflow: hidden;
- }
+}
+
+.contactForm li {
+
+}
 .contactPage ul {
   list-style-type: none;
   text-shadow: none;
