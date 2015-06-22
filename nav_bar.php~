@@ -17,16 +17,18 @@
    </tr>
 </tbody></table>
 <script>
-/* Set fontSize of 'btn' elements relative to the size of their parent */
-fontsize = function (){
+  /* Set fontSize of 'btn' elements relative to the size of their parent */
+  fontsize = function (){
     var container = document.getElementsByClassName('btn');
+    var height = container[i].clientHeight; 
+    var width = container[i].clientWidth;
     var i;
     for(i = 0; i < container.length; i++)
     {
             var height = container[i].clientHeight;
             var width = container[i].clientWidth;
             alert(width);
-            var fontS = height*0.5 +"px";
+            var fontS = height*width*0.5 +"px";
             container[i].style.fontSize = fontS;
 
     }
