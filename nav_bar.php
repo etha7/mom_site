@@ -20,8 +20,8 @@
   /* Set fontSize of 'btn' elements relative to the size of their parent */
   fontsize = function (){
     var container = document.getElementsByClassName('btn');
-    var height = container[i].clientHeight; 
-    var width = container[i].clientWidth;
+    var height = container[0].clientHeight; 
+    var width = container[0].clientWidth;
     var i;
     alert(width);
     for(i = 0; i < container.length; i++)
