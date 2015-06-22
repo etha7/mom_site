@@ -20,7 +20,7 @@
 fontsize = function (){
     var container = document.getElementsByClassName('btn fadeIn');
     var i;
-    
+    alert("TEST");
     for(i = 0; i < container.length; i++)
     {
        var height = container[i].offsetHeight;
