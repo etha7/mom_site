@@ -352,7 +352,7 @@ body .loginbox {
 }
 .basic-grey label {
     display: block;
-    margin: 0px;
+    margin: 5px 0px;
 }
 .basic-grey label>span {
     float: left;
