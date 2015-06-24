@@ -315,7 +315,7 @@ fieldset#contact {
   border-radius: 2px; 
   overflow: auto;
   background-color: red; 
-  min-width: 0;
+  
   display: table-cell;
 }
 

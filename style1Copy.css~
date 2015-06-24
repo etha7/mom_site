@@ -304,8 +304,8 @@ fieldset#contact {
   margin-right: auto;
   left 50%;
   top: 50%;
-  /*background-color: #c0c0c0;
-*/  opacity: 0.9;
+  /*background-color: #c0c0c0; */ 
+  opacity: 0.9;
   font-family: "Geneva";
   font-size: 15px;
   color: black;
@@ -315,6 +315,8 @@ fieldset#contact {
   border-radius: 2px; 
   overflow: auto;
   background-color: red; 
+  min-width: 0;
+  display: table-cell;
 }
 
 tr {
