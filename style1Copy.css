@@ -254,11 +254,27 @@ ul .admin_home {
 
 /* Form Style for Contact Page */
 
-.contactPage {
+.contactPage, .contactBox {
   overflow: hidden;
 }
-.contactForm, .contactBox{
-    overflow: hidden;
+.contactForm{
+  width: 10vw;
+  margin-left: auto;
+  margin-right: auto;
+  left 50%;
+  top: 50%;
+  background-color: #c0c0c0;  
+  opacity: 0.9;
+  font-family: "Geneva";
+  font-size: 15px;
+  color: black;
+  text-align: justify;
+  border: none;
+  box-shadow: 4px 4px 8px black;
+  border-radius: 2px; 
+  overflow: auto;
+  min-width: 0;
+  display: table-cell;
 }
 
 .contactForm li {
@@ -300,23 +316,6 @@ ul .admin_home {
 }
 
 fieldset#contact {
-  width: 10vw;
-  margin-left: auto;
-  margin-right: auto;
-  left 50%;
-  top: 50%;
-  background-color: #c0c0c0;  
-  opacity: 0.9;
-  font-family: "Geneva";
-  font-size: 15px;
-  color: black;
-  text-align: justify;
-  border: none;
-  box-shadow: 4px 4px 8px black;
-  border-radius: 2px; 
-  overflow: auto;
-  min-width: 0;
-  display: table-cell;
 }
 
 tr {

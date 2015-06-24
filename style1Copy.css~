@@ -267,6 +267,7 @@ ul .admin_home {
 .contactPage ul {
   list-style-type: none;
   text-shadow: none;
+  display: table;
 }
 
 .submitContact input:hover {
@@ -304,7 +305,7 @@ fieldset#contact {
   margin-right: auto;
   left 50%;
   top: 50%;
-  /*background-color: #c0c0c0; */ 
+  background-color: #c0c0c0;  
   opacity: 0.9;
   font-family: "Geneva";
   font-size: 15px;
@@ -314,7 +315,6 @@ fieldset#contact {
   box-shadow: 4px 4px 8px black;
   border-radius: 2px; 
   overflow: auto;
-  background-color: red; 
   min-width: 0;
   display: table-cell;
 }
