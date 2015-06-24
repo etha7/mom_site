@@ -21,6 +21,9 @@ body {
   height: 50%;
   margin: 0;
 }
+.footer{
+  
+}
 .footer p{
     top: 0;
     margin: 0 auto;
@@ -62,7 +65,6 @@ tr, td{
    width: 15%;
    height: 100%%;
    margin: 0% 0.5%;
-   background-color: blue;
 } 
 
 .nav .container {
@@ -268,7 +270,7 @@ ul .admin_home {
 }
 
 .submitContact input:hover {
-  font-size: 1vw;
+  font-size: 3vw;
   color: black;
   text-shadow: none;
   background: #c0c0c0;
@@ -287,7 +289,7 @@ ul .admin_home {
 .submitContact input {
   font-size:1vw;
   width: 25%;
-  height: 5%;
+  height: 10%;
   border: 1px solid black;
   display: inline-block;
   text-align:center;
@@ -302,8 +304,8 @@ fieldset#contact {
   margin-right: auto;
   left 50%;
   top: 50%;
-  background-color: #c0c0c0;
-  opacity: 0.9;
+  /*background-color: #c0c0c0;
+*/  opacity: 0.9;
   font-family: "Geneva";
   font-size: 15px;
   color: black;
@@ -312,7 +314,7 @@ fieldset#contact {
   box-shadow: 4px 4px 8px black;
   border-radius: 2px; 
   overflow: auto;
-
+  background-color: red; 
 }
 
 tr {
