@@ -329,7 +329,7 @@ ul .admin_home {
 
 .submitButtonContact input[type='submit'] {
   font-size: 15vh;
-  width: 50%;
+  width: 35%;
   height: 20%;
 
 }
