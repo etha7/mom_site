@@ -325,10 +325,12 @@ ul .admin_home {
   border-radius:2px;
   color: black;
   background: white;
-
-
 }
 
+.submitButtonContact {
+  font-size: 3vw;
+
+}
 tr {
   height: auto;
 }
