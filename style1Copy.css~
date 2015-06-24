@@ -330,7 +330,7 @@ ul .admin_home {
 .submitButtonContact {
   font-size: 15vw;
   width: 35%;
-  height: 10%;
+  height: 20%;
 
 }
 tr {
