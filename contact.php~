@@ -17,7 +17,6 @@
                 <div class = "contactBox fadeIn" >
 
                 <form name="contactForm" method="post" action="send_form_email.php">
-                        <fieldset id="contact" class = "fadeIn">
 
                         <ul class="submitContact">
                                 <?php 
@@ -48,7 +47,6 @@
                                 <p class = "submit">
                                         <input type="submit" value="Submit">    </p>
                         </ul>
-                </fieldset>
                 </form>
         </div>
         </div>

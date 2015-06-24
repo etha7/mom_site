@@ -258,6 +258,9 @@ ul .admin_home {
   overflow: hidden;
 }
 .contactForm{
+  overflow: hidden;
+}
+.container fadeIn {
   width: 10vw;
   margin-left: auto;
   margin-right: auto;
@@ -273,7 +276,7 @@ ul .admin_home {
   box-shadow: 4px 4px 8px black;
   border-radius: 2px; 
   overflow: auto;
-}
+ }
 
 .contactForm li {
 

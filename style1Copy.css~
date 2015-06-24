@@ -273,8 +273,6 @@ ul .admin_home {
   box-shadow: 4px 4px 8px black;
   border-radius: 2px; 
   overflow: auto;
-  min-width: 0;
-  display: table-cell;
 }
 
 .contactForm li {
