@@ -316,7 +316,17 @@ ul .admin_home {
   background: black;
 }
 
-fieldset#contact {
+.submitContact textarea {
+  font-size:1vw;
+  width: 25%;
+  height: 10%;
+  border: 1px solid #c0c0c0;
+  display: inline-block;
+  border-radius:2px;
+  color: black;
+  background: white;
+
+
 }
 
 tr {
