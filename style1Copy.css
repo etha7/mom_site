@@ -261,7 +261,7 @@ ul .admin_home {
   overflow: hidden;
 }
 .containerContact {
-  width: 50vw;
+  width: 100vw;
   margin-left: auto;
   margin-right: auto;
   left 50%;
@@ -275,7 +275,7 @@ ul .admin_home {
   border: none;
   box-shadow: 4px 4px 8px black;
   border-radius: 2px; 
-  overflow: auto;
+  overflow: hidden;
 }
 
 .contactForm li {
