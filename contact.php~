@@ -44,8 +44,9 @@
                                         <li> Telephone Number:<input  type="text" name="telephone" maxlength="30" size="30"></li>
 
                                         <li> Comments *:<br><textarea  name="comments" maxlength="1000" cols="50" rows="10"></textarea></li>
-                                <p class = "submitButtonContact">
-                                        <input type="submit" value="Submit">    </p>
+                                <p>
+                                    
+                                        <input class = "submitButtonContact" type="submit" value="Submit">    </p>
                         </ul>
                     </div>
                 </form>
@@ -68,6 +69,21 @@
     {
         document.getElementById('firstname').focus();
     }
+  /* Set fontSize of 'btn' elements relative to the size of their parent */
+    fontsize = function (){
+    var container = document.getElementsByClassName('submitButtonContact');
+    var height = container[0].clientHeight; 
+    var width = container[0].clientWidth;
+    var fontFudgeFactor = 0.0028; /*Derived Empirically */
+    var i;
+    for(i = 0; i < container.length; i++)
+    {
+            var fontS = height*width*fontFudgeFactor +"px";
+            container[i].style.fontSize = fontS;
+    }
+   };
+window.addEventListener('resize',  fontsize);
+window.addEventListener('load',  fontsize);
 </script>
 </body>
 

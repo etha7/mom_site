@@ -69,6 +69,21 @@
     {
         document.getElementById('firstname').focus();
     }
+  /* Set fontSize of 'btn' elements relative to the size of their parent */
+    fontsize = function (){
+    var container = document.getElementsByClassName('submitButtonContact');
+    var height = container[0].clientHeight; 
+    var width = container[0].clientWidth;
+    var fontFudgeFactor = 0.0028; /*Derived Empirically */
+    var i;
+    for(i = 0; i < container.length; i++)
+    {
+            var fontS = height*width*fontFudgeFactor +"px";
+            container[i].style.fontSize = fontS;
+    }
+   };
+window.addEventListener('resize',  fontsize);
+window.addEventListener('load',  fontsize);
 </script>
 </body>
 
