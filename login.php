@@ -75,11 +75,11 @@
    
       <form action ='login.php' method='post' class="basic-grey">
               <label>
-               <span class="formLabel"> Username: </span>
+               <span> Username: </span>
               <input type='text' name='username' id="username" tabindex=1 id="name" /><br/>
            </label>
            <label>
-               <span class="formLabel"> Password: </span>
+               <span> Password: </span>
                <input type='password' name='password' tabindex=2  id="name"/><br/>
            </label>
            <label>

@@ -337,9 +337,7 @@ tr {
 }
 
 /* Basic Grey Form Style for Login Page and Register PAge*/
-.formLabel {
-    font-size: 40px;
-}
+
 body#registerPage {
     margin-top: 10%;
 }
@@ -381,7 +379,7 @@ body .loginbox {
     padding-right: 1%;
     margin-top: 1%;
     color: white;
-    font-size: 1.5vw;
+    font-size: 4vw;
 }
 .basic-grey input[type="text"], .basic-grey input[type="password"], .basic-grey textarea, .basic-grey select {
     border: 1px solid #DADADA;
