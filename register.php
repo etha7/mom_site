@@ -50,23 +50,23 @@
 <?php require_once('nav_bar.php'); ?>
 <form method='post' action='register.php' class="basic-grey">
 <label>
-    <span> Username: </span>
+    <span class="formLabel"> Username: </span>
     <input type='text' name='username' id='username' /><br />
 <label>
 <label>
-    <span> Password: </span>
+    <span class="formLabel"> Password: </span>
     <input type='password' name='password' /><br />
 </label>
 <label>
-    <span> Confirm Password: </span>
+    <span class="formLabel"> Confirm Password: </span>
     <input type='password' name='confirm' /><br />
 </label>
 <label>
-    <span> Company: </span>
+    <span class="formLabel"> Company: </span>
     <input type='text' name='company' /><br />
 </label>
 <label>
-    <span> Email: </span>
+    <span class="formLabel"> Email: </span>
     <input type='text' name='email' /><br />
 </label>
 <label>

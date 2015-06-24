@@ -74,12 +74,12 @@
         require_once('nav_bar.php');?>
    
       <form action ='login.php' method='post' class="basic-grey">
-           <label>
-               <span> Username: </span>
+              <label>
+               <span class="formLabel"> Username: </span>
               <input type='text' name='username' id="username" tabindex=1 id="name" /><br/>
            </label>
            <label>
-               <span> Password: </span>
+               <span class="formLabel"> Password: </span>
                <input type='password' name='password' tabindex=2  id="name"/><br/>
            </label>
            <label>

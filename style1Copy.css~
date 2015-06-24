@@ -96,7 +96,7 @@ span {
     display: table-cell;
     vertical-align: middle;
     line-height: normal;
-
+}
 
 
 .jumbotron {
