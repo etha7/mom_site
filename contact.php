@@ -17,7 +17,7 @@
                 <div class = "contactBox fadeIn" >
 
                 <form name="contactForm" method="post" action="send_form_email.php">
-                     <div id = "contact", class = "container fadeIn">
+                     <div class = "container fadeIn">
                         <ul class="submitContact">
                                 <?php 
                                  /* Title */

@@ -260,7 +260,7 @@ ul .admin_home {
 .contactForm{
   overflow: hidden;
 }
-.container fadeIn {
+.container{
   width: 10vw;
   margin-left: auto;
   margin-right: auto;
