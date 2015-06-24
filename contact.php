@@ -78,7 +78,7 @@
     var i;
     for(i = 0; i < container.length; i++)
     {
-            var fontS = height*width*fontFudgeFactor +"px";
+            var fontS = width*fontFudgeFactor +"px";
             container[i].style.fontSize = fontS;
     }
    };
