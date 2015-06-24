@@ -276,7 +276,7 @@ ul .admin_home {
   box-shadow: 4px 4px 8px black;
   border-radius: 2px; 
   overflow: auto;
- }
+}
 
 .contactForm li {
 
