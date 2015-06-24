@@ -44,8 +44,9 @@
                                         <li> Telephone Number:<input  type="text" name="telephone" maxlength="30" size="30"></li>
 
                                         <li> Comments *:<br><textarea  name="comments" maxlength="1000" cols="50" rows="10"></textarea></li>
-                                <p class = "submitButtonContact">
-                                        <input type="submit" value="Submit">    </p>
+                                <p>
+                                    
+                                        <input class = "submitButtonContact" type="submit" value="Submit">    </p>
                         </ul>
                     </div>
                 </form>
