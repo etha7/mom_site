@@ -327,7 +327,7 @@ ul .admin_home {
   background: white;
 }
 
-.submitButtonContact {
+.submitButtonContact input[type='submit'] {
   font-size: 15vh;
   width: 35%;
   height: 20%;
