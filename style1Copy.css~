@@ -322,7 +322,6 @@ ul .admin_home {
   height: 10%;
   border: 1px solid #c0c0c0;
   display: inline-block;
-  text-align:center;
   border-radius:2px;
   color: black;
   background: white;
