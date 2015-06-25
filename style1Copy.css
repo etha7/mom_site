@@ -26,11 +26,10 @@ body {
   
 }
 .footer p{
-    top: 50px;
+    top: 0;
     margin: 0 auto;
     text-align: center;
     background-color: black;
-    opacity: 0.8;
 }
 
 
