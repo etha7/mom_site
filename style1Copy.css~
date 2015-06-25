@@ -127,7 +127,6 @@ span {
 }
 
 .jumbotron .container {
-    margin-bottom: 5%;
     margin-left: auto;
     margin-right: auto;
     height: 50%;
