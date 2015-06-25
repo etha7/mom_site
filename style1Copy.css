@@ -139,6 +139,8 @@ span {
     text-align: left;
     color: white;
     font-size: 2vw;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .jumbotron .container h1 {
