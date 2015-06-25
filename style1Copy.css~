@@ -175,7 +175,6 @@ span {
 
 .btn {
   background: #c2c2c2;
-  border-radius: 2px;
   font-family: "Arial";
   text-align: center;
   height: 100%;
