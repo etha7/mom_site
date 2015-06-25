@@ -22,8 +22,7 @@ body {
   margin: 0;
 }
 .footer{
-  
-  
+
 }
 .footer p{
     position: fixed;
@@ -33,6 +32,7 @@ body {
     background-color: black;
     opacity: 0.7;
     color: white;
+    width: 20%;
 }
 
 
