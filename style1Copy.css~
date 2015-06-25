@@ -67,7 +67,7 @@ tr, td{
 
 .nav li {
    display: inline-block; 
-   width: 15%;
+   width: 20%;
    height: 100%%;
    margin: 0% 0%;
 } 
@@ -135,7 +135,8 @@ span {
     height: 50%;
     width: 100%;
     overflow: auto; 
-    display: table;
+    display: table-cell;
+    vertical-align: middle;
 
 
 
@@ -172,7 +173,6 @@ span {
     font-size:3vw;
     font-weight: 500;
     width: 100%;
-    background-color:red;
 
 }
 

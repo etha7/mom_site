@@ -135,7 +135,8 @@ span {
     height: 50%;
     width: 100%;
     overflow: auto; 
-    display: table;
+    display: table-cell;
+    vertical-align: middle;
 
 
 
@@ -146,7 +147,6 @@ span {
     font-size: 2vw;
     margin-left: 5%;
     margin-right: 5%;
-    background-color:red;
 }
 
 .jumbotron .container h1 {
@@ -156,7 +156,7 @@ span {
     text-align: center;
     color: #ffffff;
     text-shadow: 1px 1px rgba(0,0,0, 1);
-    font-family: 'Geneva', sans serif;
+    font-family: 'Verdana', sans serif;
     font-size: 7vw;
     
 }
@@ -169,7 +169,7 @@ span {
     margin-right:auto;
     text-align: center;
     color: white;
-    font-family: "Lucida Sans Unicode";
+    font-family: "Verdana";
     font-size:3vw;
     font-weight: 500;
     width: 100%;
@@ -179,7 +179,7 @@ span {
 .btn {
   background: #c2c2c2;
   border-radius: 2px;
-  font-family: "Geneva";
+  font-family: "Verdana";
   text-align: center;
   height: 100%;
   width: 100%;
@@ -229,7 +229,7 @@ fieldset#admin_home {
   height: 465px;
   background-color: #c0c0c0;
   opacity: 0.9;
-  font-family: "Geneva";
+  font-family: "Verdana";
   font-size: 15px;
   color: black;
   text-align: justify;
