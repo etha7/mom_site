@@ -67,7 +67,7 @@ tr, td{
 
 .nav li {
    display: inline-block; 
-   width: 15%;
+   width: 20%;
    height: 100%%;
    margin: 0% 0%;
 } 
@@ -146,6 +146,7 @@ span {
     font-size: 2vw;
     margin-left: 5%;
     margin-right: 5%;
+    background-color:red;
 }
 
 .jumbotron .container h1 {
@@ -172,7 +173,6 @@ span {
     font-size:3vw;
     font-weight: 500;
     width: 100%;
-    background-color:red;
 
 }
 
