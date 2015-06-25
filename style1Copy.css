@@ -30,9 +30,10 @@ body {
     margin: 0 auto;
     left: 50px;
     text-align: center;
-    background-color: black;
+    background-color: white;
     opacity: 0.7;
-    color: white;
+    color: #545454;
+    opacity: 1;
 }
 
 
