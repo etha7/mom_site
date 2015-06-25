@@ -22,8 +22,7 @@ body {
   margin: 0;
 }
 .footer{
-  
-  
+
 }
 .footer p{
     position: fixed;
