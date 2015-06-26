@@ -116,6 +116,7 @@ span {
   margin-left: auto;
   margin-right: auto;
   display:table;
+  padding-bottom: 5%;
 }
 
 .jumbotron .container {
