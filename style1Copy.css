@@ -43,11 +43,8 @@ table{
   top: 0;
   overflow: auto;
   background-color:#c2c2c2;
+  opacity: 0.9;
 }
-
-table:hover {
-  background-color: black;
-} 
 
 
 
@@ -190,6 +187,7 @@ span {
 .btn:hover {
   text-decoration: none;
   color: white;
+  background-color: black;
 }
 /* Form Style for Admin Home Page */
 .submitAdmin input:hover {
