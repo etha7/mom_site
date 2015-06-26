@@ -122,7 +122,7 @@ span {
   position: relative;
   resize: none; 
   overflow: auto;
-  opacity: .9; 
+  opacity: 0.9; 
   background-color: #222;
   margin-left: auto;
   margin-right: auto;
@@ -188,6 +188,7 @@ span {
   text-decoration: none;
   color: white;
   background-color: black;
+  opacity: 0.9;
 }
 /* Form Style for Admin Home Page */
 .submitAdmin input:hover {

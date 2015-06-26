@@ -43,11 +43,8 @@ table{
   top: 0;
   overflow: auto;
   background-color:#c2c2c2;
+  opacity: 0.9;
 }
-/*
-table:hover {
-  background-color: black;
-} */ 
 
 
 
