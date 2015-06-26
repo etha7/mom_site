@@ -256,7 +256,7 @@ ul .admin_home {
   overflow: hidden;
 }
 .containerContact {
-  width: 70vw;
+  width: 40vw;
   margin-left: auto;
   margin-right: auto;
   left 50%;
@@ -304,6 +304,7 @@ ul .admin_home {
   width: 25%;
   height: 10%;
   border: 1px solid black;
+  margin: 5px 0px;
   display: inline-block;
   text-align:center;
   border-radius:2px;
