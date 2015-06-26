@@ -77,6 +77,7 @@ tr, td{
     margin-right: auto;
     text-align: center;
     display: table;
+    background-color:yellow;
 }
 
 .nav a {
