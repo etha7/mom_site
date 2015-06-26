@@ -41,7 +41,7 @@ body {
   width: 100%;
   position: fixed;
   top: 0;
-  overflow: auto;
+  overflow: hidden;
   background-color:#c2c2c2;
   opacity: 0.9;
 }

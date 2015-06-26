@@ -1,5 +1,3 @@
-<div class = "navTable">
-    
     <div class="nav fadeIn">
         <div class="container">
                 <ul><!--
@@ -11,7 +9,6 @@
                 </ul>
              </div>
          </div>
-</div>
 <script>
   /* Set fontSize of 'btn' elements relative to the size of their parent */
   fontsize = function (){
