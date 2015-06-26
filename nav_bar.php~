@@ -1,4 +1,4 @@
-<table align="bottom">
+<table>
   <tbody><tr>
    <td>
     

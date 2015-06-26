@@ -36,7 +36,7 @@ body {
 }
 
 
-table{
+.navTable{
   height: 10%;
   width: 100%;
   position: fixed;
@@ -44,13 +44,6 @@ table{
   overflow: auto;
   background-color:#c2c2c2;
   opacity: 0.9;
-}
-
-
-
-tr, td{
-    height:100%;
-    width: 100%;
 }
 
 .nav {
