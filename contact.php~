@@ -64,6 +64,8 @@
            ?>
         </div>
 
+
+</body>
 <script>
     window.onload = function()
     {
@@ -85,7 +87,6 @@
 window.addEventListener('resize',  fontsize);
 window.addEventListener('load',  fontsize);
 </script>
-</body>
 
 </html>
 
